@@ -5,7 +5,7 @@ import { Mail, Instagram, Phone } from "lucide-react";
 
 export default function Kontak() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#e3e3e3]">
       {/* HERO SECTION */}
       <section className="relative w-full h-[420px] flex items-center justify-center">
         <Image
@@ -27,7 +27,7 @@ export default function Kontak() {
       </section>
 
       {/* GRID KONTAK */}
-      <section className="py-16">
+      <section className="py-16 bg-[#e3e3e3]">
         <div className="max-w-5xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
             Pilihan <span className="text-blue-600">Kontak</span>

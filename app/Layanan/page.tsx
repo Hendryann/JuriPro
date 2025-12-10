@@ -16,7 +16,7 @@ export default function Layanan() {
           className="object-cover brightness-[0.55]"
         />
 
-        <div className="relative z-10 text-center px-6 max-w-3xl">
+        <div className="relative z-10 text-center px-6 max-w-3xl ">
           <h1 className="text-5xl font-bold text-white leading-tight drop-shadow-xl">
             Layanan <span className="text-blue-400">Legal Dokumen</span>
           </h1>
@@ -28,7 +28,7 @@ export default function Layanan() {
       </section>
 
       {/* GRID LAYANAN 2 × 2 */}
-      <section className="py-16">
+      <section className="py-16 bg-[#e3e3e3]">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
             Pilihan <span className="text-blue-600">Layanan Kami</span>
@@ -38,7 +38,7 @@ export default function Layanan() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {/* Card 1 */}
             <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all hover:scale-[1.03] cursor-pointer">
-              <h3 className="text-xl font-semibold mb-3">Paket Basic</h3>
+              <h3 className="text-xl font-semibold mb-3 text-black">Paket Basic</h3>
               <ul className="text-gray-600 leading-relaxed list-disc list-inside text-sm space-y-1">
                 <li>Pembuatan/penyusunan surat legal</li>
                 <li>Scan & Print Legalitas</li>
@@ -49,7 +49,7 @@ export default function Layanan() {
 
             {/* Card 2 */}
             <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all hover:scale-[1.03] cursor-pointer">
-              <h3 className="text-xl font-semibold mb-3">Paket UMKM</h3>
+              <h3 className="text-xl font-semibold mb-3 text-black">Paket UMKM</h3>
               <ul className="text-gray-600 leading-relaxed list-disc list-inside text-sm space-y-1">
                 <li>Pembuatan NIB / izin usaha dasar</li>
                 <li>Konsultasi Legalitas UMKM</li>
@@ -60,7 +60,7 @@ export default function Layanan() {
 
             {/* Card 3 */}
             <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all hover:scale-[1.03] cursor-pointer">
-              <h3 className="text-xl font-semibold mb-3">Paket Pendirian PT</h3>
+              <h3 className="text-xl font-semibold mb-3 text-black">Paket Pendirian PT</h3>
               <ul className="text-gray-600 leading-relaxed list-disc list-inside text-sm space-y-1">
                 <li>Konsultasi struktur PT</li>
                 <li>Penyusunan akta pendirian</li>
@@ -72,7 +72,7 @@ export default function Layanan() {
 
             {/* Card 4 */}
             <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all hover:scale-[1.03] cursor-pointer">
-              <h3 className="text-xl font-semibold mb-3">Paket Pendaftaran Merek</h3>
+              <h3 className="text-xl font-semibold mb-3 text-black">Paket Pendaftaran Merek</h3>
               <ul className="text-gray-600 leading-relaxed list-disc list-inside text-sm space-y-1">
                 <li>Cek kelas merek</li>
                 <li>Penyusunan dokumen permohonan</li>

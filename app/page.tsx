@@ -31,12 +31,12 @@ export default function Home() {
       </section>
 
       {/* SECTION — MENGAPA HARUS MEMILIH KAMI */}
-      <section className="py-20 px-8 md:px-16 bg-white text-center">
-        <h2 className="text-4xl font-bold mb-12">
+      <section className="py-20 px-8 md:px-16 bg-[#e3e3e3] text-center">
+        <h2 className="text-4xl font-bold mb-12 text-white">
           Mengapa Harus <span className="text-blue-500">Memilih</span> Kami?
         </h2>
 
-        <div className="grid md:grid-cols-4 gap-10 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-4 gap-10 max-w-6xl mx-auto ">
 
           {/* CARD TEMPLATE */}
           {[
@@ -62,7 +62,7 @@ export default function Home() {
               className="p-6 border rounded-xl shadow-sm bg-white cursor-pointer
                          transition-transform duration-300 hover:scale-105 hover:shadow-lg"
             >
-              <h3 className="font-semibold text-xl mb-2">{item.title}</h3>
+              <h3 className="font-semibold text-xl mb-2 text-black">{item.title}</h3>
               <p className="text-gray-600 text-sm">{item.desc}</p>
             </div>
           ))}
