@@ -20,7 +20,7 @@ export default function Home() {
 
           {/* BUTTON BIRU -> HOVER PUTIH BORDER BIRU */}
           <a
-            href="https://wa.me/62XXXXXXXXXX"
+            href="https://wa.me/6282284020148"
             className="inline-block bg-blue-600 text-white px-8 py-3 rounded-full font-semibold 
                        hover:bg-white hover:text-blue-600 hover:border-blue-600 hover:border 
                        transition duration-300"
