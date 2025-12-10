@@ -36,7 +36,7 @@ export default function Kontak() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
             {/* WhatsApp */}
             <a
-              href="https://wa.me/6280000000000"
+              href="https://wa.me/6282284020148"
               target="_blank"
               className="group bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-sm hover:shadow-xl hover:border-blue-500 hover:scale-[1.03] transition-all cursor-pointer"
             >
@@ -53,7 +53,7 @@ export default function Kontak() {
 
             {/* Email */}
             <a
-              href="mailto:admin@example.com"
+              href="mailto:JuriPro.01@gmail.com"
               target="_blank"
               className="group bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-sm hover:shadow-xl hover:border-blue-500 hover:scale-[1.03] transition-all cursor-pointer"
             >
@@ -70,7 +70,7 @@ export default function Kontak() {
 
             {/* Instagram */}
             <a
-              href="https://instagram.com/akun_kamu"
+              href="https://instagram.com/juri_pro?igsh=MWltbW5tdDJnbzFkOQ=="
               target="_blank"
               className="group bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-sm hover:shadow-xl hover:border-blue-500 hover:scale-[1.03] transition-all cursor-pointer"
             >
