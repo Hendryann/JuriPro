@@ -70,7 +70,9 @@ export default function Kontak() {
 
             {/* Instagram */}
             <a
+
               href="https://instagram.com/juri_pro?igsh=MWltbW5tdDJnbzFkOQ=="
+
               target="_blank"
               className="group bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-sm hover:shadow-xl hover:border-blue-500 hover:scale-[1.03] transition-all cursor-pointer"
             >
