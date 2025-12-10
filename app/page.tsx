@@ -1,65 +1,75 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <main className="w-full">
+
+      {/* HERO SECTION */}
+      <section
+        className="min-h-screen bg-cover bg-center flex items-center relative"
+        style={{ backgroundImage: "url('/bg-home.jpg')" }}
+      >
+        <div className="absolute inset-0 bg-black/40"></div>
+
+        <div className="relative z-10 px-10 md:px-20 max-w-3xl text-white">
+          <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6">
+            Jasa Pengurusan Legal Dokumen
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+
+          <p className="text-lg md:text-xl text-gray-200 mb-10">
+            Kami adalah platform jasa legal dokumen yang menawarkan solusi cepat, murah, dan mudah bagi masyarakat, khususnya UMKM dengan validasi langsung oleh pakar hukum.
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
+
+          {/* BUTTON BIRU -> HOVER PUTIH BORDER BIRU */}
           <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="https://wa.me/62XXXXXXXXXX"
+            className="inline-block bg-blue-600 text-white px-8 py-3 rounded-full font-semibold 
+                       hover:bg-white hover:text-blue-600 hover:border-blue-600 hover:border 
+                       transition duration-300"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
+            Konsultasi Sekarang
           </a>
         </div>
-      </main>
-    </div>
+      </section>
+
+      {/* SECTION — MENGAPA HARUS MEMILIH KAMI */}
+      <section className="py-20 px-8 md:px-16 bg-white text-center">
+        <h2 className="text-4xl font-bold mb-12">
+          Mengapa Harus <span className="text-blue-500">Memilih</span> Kami?
+        </h2>
+
+        <div className="grid md:grid-cols-4 gap-10 max-w-6xl mx-auto">
+
+          {/* CARD TEMPLATE */}
+          {[
+            {
+              title: "Berpengalaman",
+              desc: "Tim profesional dengan pengalaman dalam pengurusan legalitas usaha dan dokumen hukum.",
+            },
+            {
+              title: "Proses Cepat",
+              desc: "Pengurusan dokumen dilakukan secara efisien dan tepat waktu.",
+            },
+            {
+              title: "Harga Terjangkau",
+              desc: "Biaya layanan kompetitif tanpa mengurangi kualitas.",
+            },
+            {
+              title: "Pendampingan Penuh",
+              desc: "Kami mendampingi Anda hingga seluruh proses selesai.",
+            },
+          ].map((item, index) => (
+            <div
+              key={index}
+              className="p-6 border rounded-xl shadow-sm bg-white cursor-pointer
+                         transition-transform duration-300 hover:scale-105 hover:shadow-lg"
+            >
+              <h3 className="font-semibold text-xl mb-2">{item.title}</h3>
+              <p className="text-gray-600 text-sm">{item.desc}</p>
+            </div>
+          ))}
+
+        </div>
+      </section>
+
+    </main>
   );
 }
