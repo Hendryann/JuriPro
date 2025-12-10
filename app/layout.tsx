@@ -31,7 +31,7 @@ export default function RootLayout({
         <div className="pt-0">{children}</div>
 
         {/* FOOTER */}
-        <footer className="w-full bg-gray-200 text-center py-4 mt-10 text-sm text-gray-700">
+        <footer className="w-full bg-gray-200 text-center py-4 text-sm text-gray-700">
           Copyright © 2025 JuriPro. All Rights Reserved.
         </footer>
 
