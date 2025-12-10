@@ -91,7 +91,7 @@ export default function Layanan() {
           Konsultasikan kebutuhan legalisasi usaha Anda bersama tim profesional kami.
         </p>
         <Link
-          href="https://wa.me/6280000000000"
+          href="https://wa.me/6282284020148"
           className="mt-8 inline-block bg-white text-blue-600 font-semibold px-8 py-3 rounded-full shadow hover:bg-blue-50 transition"
         >
           Konsultasi Sekarang
